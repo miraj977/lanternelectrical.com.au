@@ -1,0 +1,899 @@
+/* Header */
+nav#site-navigation-mobile {
+  vertical-align: middle;
+  align-items: center;
+  display: none;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+#mobile-menu {
+  display: flex;
+}
+
+.burger a {
+  position: relative;
+  width: 30px !important;
+  font-size: 0;
+  background-image: url(images/menu-white.svg);
+  top: -4px;
+}
+
+.divheader-number {
+  position: absolute;
+  left: 240px;
+  width: 100%;
+  color: #fff;
+}
+
+.rev{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+a.header-number {
+  margin-left: -28px;
+  margin-right: 8px;
+}
+
+.has-scrolled a.header-number {
+  margin-left: -38px;
+}
+
+.has-scrolled .divheader-number {
+  color: #000;
+}
+
+.header-number {
+  color: #f18700;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.has-scrolled #primary-menu li a:before {
+  background-color: #f18700 !important;
+}
+
+.sub-menu {
+  position: absolute;
+  width: 288px;
+  padding: 5px 20px;
+  top: 40px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  left: -100px;
+  display: none;
+}
+
+.sub-menu li {
+  padding: 6px 5px;
+  margin: 0px !important;
+}
+
+.sub-menu li:first-child {
+  margin-top: 20px !important;
+}
+
+.sub-menu li:last-child {
+  margin-bottom: 20px !important;
+}
+
+.sub-menu li a {
+  color: #181c1d !important;
+  font-family: "Mont";
+}
+
+.menu-item-has-children:hover .sub-menu {
+  display: block;
+  left: -100px;
+  top: 25px;
+  position: absolute;
+}
+
+/* Hero Image */
+
+.full-banner {
+  min-height: 100vh !important;
+  background-size: cover;
+}
+
+.banner-about {
+  position: relative;
+  max-height: 78vh;
+  display: grid;
+}
+
+.banner-about>img{
+  min-height: 500px;
+  object-fit: cover;
+}
+/* 
+.banner-about .banner_text{
+	font-family:"Mont-Bd";
+	font-size:32px;
+	line-height: 38px;
+	
+} */
+
+.banner-other {
+  position: relative;
+  max-height: 48vh;
+  display: grid;
+}
+
+.banner-page {
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-about:before,
+.banner-other:before,
+.banner-page:before,
+.heroFullScreen:before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+}
+
+
+.p1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 76px;
+  color: #ffffff;
+}
+
+.enquiry_btn > a {
+  color: #f18700 !important;
+}
+
+ul.slides > li {
+  background-position: top;
+}
+
+.hero-link {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 1030px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+.hero-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-icon-text {
+  color: #f18700;
+  padding-top: 14px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.banner_text {
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: "Mont-Bd";
+  margin: 0 auto;
+}
+
+/* Hero Section Ends Here */
+
+/* section {
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* Information section */
+
+.content-text {
+  font-size: 32px;
+  line-height: 38px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Mont-Bd";
+}
+
+.homepage .col-text {
+  background: #262626;
+  display: flex;
+  align-items: flex-start;
+  padding: 80px;
+}
+
+.homepage .strecth-row:nth-child(even) .col-text {
+  padding-left: 62px;
+}
+
+.homepage .stretched-text,
+.homepage .content-link {
+  text-align: left;
+}
+
+.homepage .content-link {
+  padding-top: 40px;
+}
+
+.homepage .content-link a {
+  font-size: 18px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Mont";
+}
+
+.homepage .strecth-row:nth-child(even) .content-link a {
+  font-size: 18px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #84898b;
+  text-align: left;
+  font-family: "Mont";
+}
+
+.sectionTitle {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.stretched-text p {
+  color: #f18700;
+  font-size: 26px;
+  line-height: 32px;
+  font-family: "Mont-Bd";
+}
+
+.grid-readmore {
+  color: #84898b;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+.strecthImg {
+  display: none;
+}
+
+/* Box Icons */
+
+.homebox {
+  margin-bottom: 19px;
+}
+
+.homebox .box-img img {
+  height: 130px;
+}
+
+.homebox .box {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.box-flex {
+  justify-content: center;
+}
+
+.box-title {
+  color: #f18700;
+  font-size: 26px;
+  line-height: 32px;
+  margin: 2px;
+}
+
+.box-text {
+  color: #565656;
+  font-size: 26px;
+  line-height: 32px;
+  font-family: "Mont-Bd";
+}
+
+.box-readmore {
+  color: #f18700;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+/* Clients Area */
+
+.client-flex {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.client-flex h4 {
+  margin-bottom: 0px;
+  font-size: 26px;
+  line-height: 32px;
+  font-family: "Mont-Bd";
+}
+
+.client_logo_img {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact Form */
+
+.form-row {
+  width: 100%;
+  float: none;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.wpcf7 label {
+  position: relative;
+  left: 0;
+  top: 10px;
+  color: #ffffff;
+  z-index: 1;
+  transition: transform 150ms ease-out, font-size 150ms ease-out;
+  font-size: 20px;
+  line-height: 30px;
+  float: left;
+}
+
+.wpcf7-form-control-wrap {
+  position: relative;
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.wpcf7-not-valid::placeholder {
+  border-color: red !important;
+  color: red;
+}
+
+input.wpcf7-form-control,
+.wpcf7-textarea {
+  border: 0;
+  background-color: transparent;
+  padding: 12px 0px 4px;
+  margin-bottom: 35px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  border-radius: 0;
+  outline: none;
+  float: left;
+}
+textarea:focus,
+input:focus {
+  border-bottom: 2px solid white;
+  outline: none !important;
+}
+
+.wpcf7-textarea {
+  margin-bottom: 0px;
+}
+
+.first-name,
+.last-name {
+  width: 50%;
+}
+#first-name,
+#phone {
+  width: 95%;
+}
+
+.phone {
+  width: 70%;
+}
+
+.postcode {
+  width: 30%;
+}
+
+input[type="submit"] {
+  border-bottom: none;
+}
+
+::placeholder {
+  color: #ffffff;
+  bottom: 0px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#sub-label {
+  font-size: 14px;
+}
+
+.enq_desc {
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 14px;
+  font-family: "Mont-Bd";
+}
+
+.enquiry-modal__content p {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.sub-check {
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Bottom Background Image with Text */
+
+.bottom-bg-img {
+  background-attachment: scroll;
+  position: relative;
+}
+
+.bottom-bg-img:before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+}
+
+.bottom-bg-img h2 {
+  font-size: 26px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.bearnear {
+  max-width: 212px;
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 30px;
+}
+
+/* Pages CSS */
+
+/* About Us */
+
+#content {
+  position: relative;
+  z-index: 90;
+  background-color: #ffffff;
+  /*   margin-top: 100vh; */
+}
+
+.breadcrumb,
+.about-info {
+  background-color: #F8F8F8;
+  position: relative;
+}
+.show{
+	padding-left: 0px;
+}
+.inverse, .page-id-22 .breadcrumb{
+	background-color:#ffffff !important;
+}
+
+.contact-info,
+section.form {
+  position: relative;
+  background-color: #f8f8f8;
+	padding-bottom: 150px;
+}
+
+.about-info h1 {
+  font-size: 40px;
+  line-height: 44px;
+  font-family: "Mont-Bd";
+}
+
+.about-info p {
+  max-width: 1043px; 
+  margin: 0 auto;
+}
+
+.breadcrumb span {
+  color: #f18700;
+}
+
+.box-flex .sectionTitle{
+	margin-bottom: 30px;
+}
+
+.strecth-row:nth-child(odd) .about-flex {
+  order: 1 !important;
+}
+
+.strecth-row:nth-child(even) .about-img {
+  order: 2 !important;
+}
+
+/* .box-flex .box-title-content {
+  margin-bottom: 5px;
+} */
+
+.box-title-content {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 1043px;
+}
+
+.box-bottom-content{
+	padding-bottom:80px;
+}
+
+.not-home .box-img img {
+  max-width: 188px;
+}
+
+.not-home .box-img {
+  text-align: center;
+}
+
+.not-home .box-title {
+  color: #262626;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Mont";
+}
+
+.not-home .box-text {
+  color: #262626;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Mont";
+  text-align: center;
+  padding: 6px;
+}
+
+.preventive {
+  background-color: #f8f8f8;
+  padding-top: 120px;
+}
+
+.about-flex .stretched-title,
+.em-flex .stretched-title {
+  color: #262626;
+  font-size: 32px;
+  line-height: 38px;
+  font-family: "Mont-Bd";
+}
+
+.about-flex .stretched-text p,
+.em-flex .stretched-text p {
+  font-weight: 400;
+  color: #262626;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Mont" !important;
+}
+
+.about-img .stretched-img img {
+  /* max-width: 510px; */
+}
+
+.about-img .stretched-img,
+.em-img .stretched-img {
+  text-align: center;
+}
+
+.social-box {
+  display: flex;
+  justify-content: center;
+}
+
+.social-box a {
+  padding: 5px;
+}
+
+/* What We Do */
+
+.content-link a {
+  color: #f18700;
+}
+
+.rev-flex .strecth-row {
+  flex-direction: row-reverse;
+}
+/* Emergency Electrician */
+
+.emergency-banner {
+  background-attachment: scroll;
+}
+
+.emergency-banner h2 {
+  font-family: "Mont-Bd";
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.emergency-box .box-img {
+  margin-bottom: 18px !important;
+}
+
+.emergency-box h1 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.emergency-box .box {
+  background-color: #fff;
+  padding: 39px 10px 56px;
+}
+
+.emergency-box .box-title {
+  color: #262626;
+  padding-bottom: 20px;
+  max-width: 298px;
+  margin: 0 auto;
+}
+
+.emergency-box .box-text {
+  color: #262626;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Mont";
+}
+
+.emergency-box img {
+  max-width: 120px !important;
+}
+
+.box-bottom-content p,
+.box-bottom-content a {
+  color: #f18700 !important;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.em-flex .stretched-text p.embold {
+  font-weight: bold !important;
+  font-family: "Mont-Bd" !important;
+  line-height: 22px !important;
+}
+
+
+/* Industrial Electrician */
+
+.second-grid {
+  background-color: #f8f8f8;
+}
+
+.second-grid h4 {
+  font-size: 32px;
+  line-height: 38px;
+  font-family: "Mont-Bd";
+  padding-top: 80px;
+}
+
+/* Contact Us */
+
+.get-directions {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+ul.contact_info li {
+  padding: 10px 0px 10px 60px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 45px;
+}
+
+.phoneIcon-y {
+  background-image: url("../images/Phone@2x.svg");
+}
+
+.contact_info li a,
+.contact_info li p {
+  color: #181c1d;
+  font-family: "Mont";
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 5px;
+}
+
+.contact-span {
+  font-size: 24px;
+  color: #181c1d;
+  font-family: "Mont-Bd";
+  line-height: 32px;
+}
+
+.locationIcon-y {
+  background-image: url("../images/Place@2x.svg");
+  background-size: 32px !important;
+}
+
+.HistoryIcon-y {
+  background-image: url("../images/History@2x.svg");
+}
+
+/* Latest News */
+
+.latest {
+/*   padding-top: 132px; */
+}
+
+.news-section {
+  padding: 115px 0 132px;
+  background-color: #ffffff;
+}
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.news-box {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.news-box-title {
+  font-size: 32px;
+  line-height: 38px;
+  font-family: "Mont-Bd";
+}
+
+.news-box-link {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.news-box-link::after {
+  content: " →";
+}
+
+/* Blog */
+
+.blog-heading {
+  font-size: 40px;
+  line-height: 44px;
+  color: #262626;
+  text-align: left;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.blog-content > h4 > a {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.post-categories {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-categories > li > a {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Mont-Bd";
+}
+
+.post-date {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.post-title {
+  margin: 5px 0;
+}
+
+.related-title {
+  font-size: 40px;
+  line-height: 44px;
+  padding: 50px 0 50px 0;
+}
+
+
+/* Projects */
+
+.no-result {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 18vh;
+}
+
+.project-heading {
+  font-size: 40px;
+  line-height: 44px;
+  color: #262626;
+  text-align: left;
+}
+
+.privacy_section {
+  background-color: #f8f8f8;
+}
+
+#wpcd_parent,.categories {
+  border: none;
+  color: #f18700;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: "Mont-Bd";
+  background-color: transparent;
+}
+
+.spancat{
+  float: right;
+}
+
+.spancat:hover ul{
+	display:block;
+}
+
+.categories ul{
+	width:200px;
+	padding: 20px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+	z-index:3;
+	text-align: center;
+	position:absolute;
+	list-style-type:none;
+	display:none;
+}
+
+.category-title {
+  font-size: 40px;
+  line-height: 44px;
+  padding-top: 25px;
+}
+
+.back-btn {
+  color: #f18700;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: "Mont";
+  padding-left: 20px;
+}
+
+/* Footer */
+
+#sbi_load {
+  display: none;
+}
+
+.goTop {
+  /* 	display:none !important; */
+}

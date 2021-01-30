@@ -1,0 +1,12 @@
+[12-Apr-2020 14:26:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/staging/template/wp-content/themes/pictura-creative/index.php on line 15
+[12-Apr-2020 14:26:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/staging/template/wp-content/themes/pictura-creative/index.php on line 15
+[12-Apr-2020 17:28:05 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/staging/template/wp-content/themes/pictura-creative/index.php on line 15
+[12-Apr-2020 17:28:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/staging/template/wp-content/themes/pictura-creative/index.php on line 15
+[04-Oct-2020 19:18:27 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lantern/public_html/wp-content/themes/pictura-creative/index.php on line 15
+[09-Oct-2020 01:38:24 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lanternelectric/public_html/wp-content/themes/pictura-creative/index.php on line 15
+[11-Nov-2020 07:03:06 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lanternelectric/public_html/wp-content/themes/pictura-creative/index.php on line 15
+[11-Nov-2020 17:05:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lanternelectric/public_html/wp-content/themes/pictura-creative/index.php on line 15
+[12-Nov-2020 16:53:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lanternelectric/public_html/wp-content/themes/pictura-creative/index.php on line 15
+[13-Nov-2020 00:31:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lanternelectric/public_html/wp-content/themes/pictura-creative/index.php on line 15
+[13-Nov-2020 01:41:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lanternelectric/public_html/wp-content/themes/pictura-creative/index.php on line 15
+[13-Nov-2020 03:25:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/lanternelectric/public_html/wp-content/themes/pictura-creative/index.php on line 15
